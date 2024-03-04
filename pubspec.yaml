@@ -26,3 +26,4 @@ flutter:
     - Assets/image/
     
   uses-material-design: true
+  generate: true
