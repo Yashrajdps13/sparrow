@@ -7,7 +7,14 @@ import 'package:sparrow/features/pages/splash_screen.dart';
 import 'package:sparrow/route/app_pages.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
-void main() {
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
+
+void main() async {
+  //WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MainApp());
 }
 
@@ -24,7 +31,7 @@ class MainApp extends StatelessWidget {
       ],
       supportedLocales: [
         Locale('en'), // English
-        Locale('hi'), // Spanish
+        Locale('hi'), // Hindi
       ],
       home: HomePage(),
     );

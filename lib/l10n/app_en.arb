@@ -1,6 +1,15 @@
 {
-  "helloWorld": "Hello World!",
-  "@helloWorld": {
-    "description": "The conventional newborn programmer greeting"
-  }
+  "introduction": "Introduction",
+  "historicalBackground": "Historical Background",
+  "importanceOfSparrow": "Importance of Sparrow",
+  "reasonsForExtinction": "Reasons for extinction",
+  "conservationMeasure": "Conservation Measure",
+  "dietofSparrow": "Diet of Sparrow",
+  "nestsForSparrow": "Nests for Sparrow",
+  "plantsForSparrow": "Plants for Sparrow",
+  "conservationCampaign": "Conservation Campaign",
+  "mutualContribution": "Mutual contribution",
+  "poemsAndStories": "Poems and stories",
+  "presentSituation": "Present Situation",
+  "name" : "Name"
 }

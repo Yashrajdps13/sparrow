@@ -7,6 +7,7 @@ environment:
   sdk: '>=3.2.3 <4.0.0'
 
 dependencies:
+  firebase_core: ^2.26.0
   flutter:
     sdk: flutter
   flutter_localizations:
@@ -24,6 +25,5 @@ dev_dependencies:
 flutter:
   assets:
     - Assets/image/
-    
-  uses-material-design: true
   generate: true
+  uses-material-design: true
