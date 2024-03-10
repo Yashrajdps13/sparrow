@@ -7,7 +7,10 @@ environment:
   sdk: '>=3.2.3 <4.0.0'
 
 dependencies:
+  file_picker: ^6.2.0
+  firebase_auth: ^4.17.8
   firebase_core: ^2.26.0
+  firebase_storage: ^11.6.9
   flutter:
     sdk: flutter
   flutter_localizations:
